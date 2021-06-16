@@ -20,7 +20,7 @@ To generate an annotated video, enter this command in the terminal:
 python3 visual_utils.py -i {PATH TO VIDEO} -a {PATH TO ANNOTATIONS} -f opendatacamyolo -o {DESIRED OUTPUT NAME} -v
 ```
 
-Optionally, you can add -d to the end of the command in section x to generate a folder containing one image for each frame of the annotated video, as such:
+Optionally, you can add -d to the end of the command to generate a folder containing one image for each frame of the annotated video, as such:
 ```
 python3 visual_utils.py -i {PATH TO VIDEO} -a {PATH TO ANNOTATIONS} -f opendatacamyolo -o {DESIRED OUTPUT NAME} -v -d
 ```
