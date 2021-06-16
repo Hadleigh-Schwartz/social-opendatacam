@@ -16,24 +16,33 @@ Below are some details on how to run the custom opendatacam set up and visualize
 
 
 ### Visualizing annotations 
-
-Visualizing annotations on an individual frame of a video or a whole video is accomplished with the python program visual_utils.py. 
+The python program visual_utils.py contains functions for visualizing annotations on whole videos and individual frames of videos. 
 
 To generate an annotated video, enter this command in the terminal:
-python3 visual_utils.py -i {VIDEO FILENAME} -a {ANNOTATIONS FILENAME} -f opendatacamyolo -o {DESIRED OUTPUT NAME} -v
+```
+python3 visual_utils.py -i {PATH TO VIDEO} -a {PATH TO ANNOTATIONS} -f opendatacamyolo -o {DESIRED OUTPUT NAME} -v
+```
 
 Optionally, you can add -d to the end of the command in section x to generate a folder containing one image for each frame of the annotated video, as such:
-python3 visual_utils.py -i {VIDEO FILENAME} -a {ANNOTATIONS FILENAME} -f opendatacamyolo -o {DESIRED OUTPUT NAME} -v -d
-
+```
+python3 visual_utils.py -i {PATH TO VIDEO} -a {PATH TO ANNOTATIONS} -f opendatacamyolo -o {DESIRED OUTPUT NAME} -v -d
+```
 
 If you would only like to see annotations on one frame of the video:
-python3 visual_utils.py -i {VIDEO FILENAME} -a {ANNOTATIONS FILENAME} -f opendatacamyolo -o {DESIRED OUTPUT NAME} -n {FRAME NUMBER}
+```
+python3 visual_utils.py -i {PATH TO VIDEO} -a {PATH TO ANNOTATIONS} -f opendatacamyolo -o {DESIRED OUTPUT NAME} -n {FRAME NUMBER}
+```
 
-In all cases, make sure to put both video and annotations file in the same folder as visual_utils.py
 
+### Example - Timesquare livestream 
+In the sample-videos folder you will find four clips taken from a [livestream] (https://www.youtube.com/watch?v=AdUw5RdyZxI) video of Times Square. Each video clip has a corresponding annotations file that was outputted from opendatacam. 
 
+Let's visually inspect the annotations for timesquare1.mp4. Enter the following command into the terminal:
+```
+python3 visual_utils.py -i sample-videos/timesquare1.mp4 -a sample-annotations/timesquare1-opendatacamyolo -f opendatacamyolo -o timesquare1-annotated -v
+```
+You should now see a file called timesquare1-annotated.mp4 in which all the objects the model detected are boxed in green, accompanied by a label and confidence score. 
 
-Example - Visualizing annotations on a timesquare livestream
 
 
  
