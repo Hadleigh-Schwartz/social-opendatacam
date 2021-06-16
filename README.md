@@ -56,9 +56,10 @@ python3 visual_utils.py -i sample-videos/timesquare1.mp4 -a sample-annotations/t
 ```
 For example, to see what the annotated 10th frame looks like, I'd enter 
 ```
-python3 visual_utils.py -i sample-videos/timesquare1.mp4 -a sample-annotations/timesquare1-opendatacamyolo -f opendatacamyolo -o timesquare1-annotated -n 10 
+python3 visual_utils.py -i sample-videos/timesquare1.mp4 -a sample-annotations/timesquare1-opendatacamyolo -f opendatacamyolo -o timesquare10th-annotated -n 10 
 ```
-
+This gives us a file named timesquare10th-annotated.jpg that looks like this:
+![Annotated 10th frame](/assets/timesquare10th-annotated.jpg)
 
  
 
