@@ -41,9 +41,23 @@ Let's visually inspect the annotations for timesquare1.mp4. Enter the following 
 ```
 python3 visual_utils.py -i sample-videos/timesquare1.mp4 -a sample-annotations/timesquare1-opendatacamyolo -f opendatacamyolo -o timesquare1-annotated -v
 ```
-You should now see a file called timesquare1-annotated.mp4 in which all the objects the model detected are boxed in green, accompanied by a label and confidence score. 
+You should now see a file called timesquare1-annotated.mp4 in which all the objects the model detected are boxed in green, accompanied by a label and confidence score. It should look something like this: 
 ![Annotated timesquare1 screengrab](/assets/timesquare1-annotated.gif)
 
+If you want to examine individual frames of the annotated video, run the command with the -d option, as such: 
+```
+python3 visual_utils.py -i sample-videos/timesquare1.mp4 -a sample-annotations/timesquare1-opendatacamyolo -f opendatacamyolo -o timesquare1-annotated -v -d 
+```
+You'll now see a folder named timesquare1-annotated in which you can find each annotated frame.
+<br>
+Lastly, to examine just one frame, enter the command
+```
+python3 visual_utils.py -i sample-videos/timesquare1.mp4 -a sample-annotations/timesquare1-opendatacamyolo -f opendatacamyolo -o timesquare1-annotated -n {FRAME NUMBER} 
+```
+For example, to see what the annotated 10th frame looks like, I'd enter 
+```
+python3 visual_utils.py -i sample-videos/timesquare1.mp4 -a sample-annotations/timesquare1-opendatacamyolo -f opendatacamyolo -o timesquare1-annotated -n 10 
+```
 
 
  
