@@ -1,19 +1,16 @@
 # social-opendatacam
 
-opendatacam is an open-source tool for quantifying the world. 
+opendatacam is an open-source tool for quantifying the world through video and object detection. This repository contains code for a streamlined version of the [original opendatacam](https://github.com/opendatacam/opendatacam). In this version, I have slightly modified the original code to intercept the output of the YOLO object detection and store it in a human-readable file, which allows for additional analysis of results. 
 
-This repository contains code for a streamlined version of the original opendatacam. In this version, I have slightly modified the original code to intercept the output of the YOLO object detection and store it in a human-readable file. 
-
-Users input a video (or a live camera stream) to opendatacam, and opendatacam runs an object detection machine learning model on this video to output <em> annotations </em> for the video. Annotations describe the objects that the model was able to detect and label. Each annotation corresponds to one object in one frame of the video, and includes 
+Users input a video to opendatacam, and opendatacam runs its object detection machine learning model on the video. It then outputs <em> annotations </em> for the video. Annotations describe the objects that the model was able to detect and label. Each annotation corresponds to one object in one frame of the video, and includes:
 <br>
 (a) a class label for the object (e.g., person, car, bag, plant, etc.)
 <br>
 (b) bounding box coordinates specifying where in the frame the object is located
 <br>
-(c) a confidence score indicating the models confidence in its assignment of the label and bounding box. 
+(c) a confidence score indicating the model's confidence in its assignment of the label and bounding box. 
 
 Below are some details on how to run the custom opendatacam set up and visualize results of its object detection, including a short tutorial.
-
 
 ### Visualizing annotations 
 The python program visual_utils.py contains functions for visualizing annotations on whole videos and individual frames of videos. 
