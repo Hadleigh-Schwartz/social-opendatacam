@@ -35,7 +35,7 @@ python3 visual_utils.py -i {PATH TO VIDEO} -a {PATH TO ANNOTATIONS} -f opendatac
 
 
 ### Example - Timesquare livestream 
-In the sample-videos folder you will find four clips taken from a [livestream] (https://www.youtube.com/watch?v=AdUw5RdyZxI) video of Times Square. Each video clip has a corresponding annotations file that was outputted from opendatacam. 
+In the sample-videos folder you will find four clips taken from a [livestream](https://www.youtube.com/watch?v=AdUw5RdyZxI) video of Times Square. Each video clip has a corresponding annotations file that was outputted from opendatacam. 
 
 Let's visually inspect the annotations for timesquare1.mp4. Enter the following command into the terminal:
 ```
