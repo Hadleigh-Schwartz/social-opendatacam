@@ -4,16 +4,18 @@
 
 ### Installing CVAT
 The videos linked below walk through installation of CVAT on your computer, based off of the steps detailed [here](https://github.com/openvinotoolkit/cvat). Installation instructions vary depending on your operating system, so make sure to choose the video corresponding to yours. 
+<br>
+<br>
 
-
-Mac:https://youtu.be/AVTxUXqtOoM
+Mac: https://youtu.be/AVTxUXqtOoM
 Docker Desktop for Mac can be found at https://docs.docker.com/desktop/mac/install/. 
-
-
+<br>
+<br>
 
 
 Ubuntu: https://youtu.be/bNhuOHtsv7M
-
+<br>
+<br>
 
 
 
