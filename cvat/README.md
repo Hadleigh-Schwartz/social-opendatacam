@@ -33,5 +33,10 @@ Below is a step-by-step guide for using CVAT to annotate videos on your computer
 7. Click on "Import Task." Upload Test-Task1.zip, which you downloaded in Step 1. When it is finished importing, navigate to the task.
 8. On the task page, you should see a pane titled "Jobs." Click on the job number of the first (and only) job. This should bring you to the annotation page.
 9. Start annotating! You can reference the official CVAT manual [here](https://openvinotoolkit.github.io/cvat/docs/manual/basics/track-mode-basics/). They detail how to annotate in "tracking mode," which is what we will be doing. Check out the video if you are still confused. 
+10. When you're done, go back to your terminal and enter the command
+ ```
+  docker-compose down
+  ```
+  This shuts down the service, so it will no longer show up when you visit localhost:8080. 
 
 
