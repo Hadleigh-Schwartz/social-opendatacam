@@ -15,13 +15,13 @@ The videos linked below walk through installation of CVAT, based off of the step
   - Note that the steps in this video slightly diverge from the official instructions at https://github.com/openvinotoolkit/cvat. The official instructions appear to have some errors, so I recommend sticking to the video. 
 
 
-### Annotating with CVAT
+### Annotating with CVAT - A Guided Example
 
 When annotating, your job is to label the objects in the video. Specifically, for each notable object in the video, you will draw a rectangle around it and then apply a label indicating its type. We will only be annotating people.
 
 Annotation proceeds frame-by-frame. A video is comprised of many frames, and across frames, the positions and characteristcs of objects will change. To annotate these objects, we pause the video - stopping it at a specific frame - and annotate everything we see in this "still." As you will see in the video, you only need to annotate certain <i>key frames </i>, and CVAT will fill in the blanks!
 
-Below is a step-by-step guide for using CVAT to annotate videos on your computer (once you have installed it). Check out the video here for a demonstration:
+Below is a step-by-step guide for using CVAT to annotate videos on your computer (once you have installed it). Check out the video here for a demonstration: . 
 
 1. Download Test-Task1.zip. Scroll up and click Test-Task1.zip. At the next page, click Download.
 2. Open a terminal and enter the following commands, one by one. If you need you can refer back to the installation videos for instructions on how to open/use the terminal on your computer depending on its operating system.
@@ -36,8 +36,9 @@ Below is a step-by-step guide for using CVAT to annotate videos on your computer
 6. Click on "Tasks" in the menu bar. 
 7. Click on "Import Task." Upload Test-Task1.zip, which you downloaded in Step 1. When it is finished importing, navigate to the task.
 8. On the task page, you should see a pane titled "Jobs." Click on the job number of the first (and only) job. This should bring you to the annotation page.
-9. Start annotating! You can reference the official CVAT manual [here](https://openvinotoolkit.github.io/cvat/docs/manual/basics/track-mode-basics/). They detail how to annotate in "tracking mode," which is what we will be doing. Check out the video if you are still confused. 
-10. When you're done, go back to your terminal and enter the command
+  - Note the two available labels: "person" and "interaction." Note that an "interaction" can have one of the following <i>attributes</i>: "dancing," "fighting," or "walking together."       Such attributes describe the type of interaction. 
+10. Start annotating! You can reference the official CVAT manual [here](https://openvinotoolkit.github.io/cvat/docs/manual/basics/track-mode-basics/). They detail how to annotate in "tracking mode," which is what we will be doing. Check out the video if you are still confused. 
+11. When you're done, go back to your terminal and enter the command
  ```
   docker-compose down
   ```
