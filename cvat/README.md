@@ -9,9 +9,7 @@ The videos linked below walk through installation of CVAT on your computer, base
 
 * Mac: https://youtu.be/AVTxUXqtOoM
 Docker Desktop for Mac can be found at https://docs.docker.com/desktop/mac/install/. 
-<br>
 * Ubuntu: https://youtu.be/bNhuOHtsv7M
-<br>
 * Windows: https://youtu.be/YRvhurhU1QU
 Docker Desktop for Windows can be found at https://hub.docker.com/editions/community/docker-ce-desktop-windows.
 Note that the steps in this video slightly diverge from the official instructions at https://github.com/openvinotoolkit/cvat. The official instructions appear to have some errors, so I recommend sticking to the video. 
