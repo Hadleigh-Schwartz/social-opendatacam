@@ -28,8 +28,8 @@ The steps below explain how to use CVAT to annotate videos on your computer (onc
 
 Check out the video [here](https://youtu.be/vfM4XsVKdgQ) for a demonstration. 
 
-1. Download Test-Task1.zip. Scroll up and click Test-Task1.zip. At the next page, click Download.
-2. Open a terminal and enter the following commands, one by one. If you need you can refer back to the installation videos for instructions on how to open/use the terminal on your computer depending on its operating system.
+1. Download Test-Task1.zip. To do so, scroll up and click Test-Task1.zip. On the page you're brought to, click Download.
+2. Open a terminal and enter the following commands, one by one. If needed, you can refer back to the installation videos for instructions on how to open/use the terminal on your computer.
   ```
   cd ~/cvat
   
