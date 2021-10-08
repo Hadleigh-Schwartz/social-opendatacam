@@ -21,7 +21,7 @@ Annotation entails labeling the objects in a video. Specifically, for each notab
 
 Annotation proceeds frame-by-frame. A video is comprised of many frames, and across frames, the positions and characteristcs of objects will change. To annotate these objects, we pause the video - stopping it at a specific frame - and annotate everything we see in this "still." As you will see in the demonstration, you only need to annotate certain <i>key frames </i>, and CVAT will fill in the blanks!
 
-Below is a step-by-step guide for using CVAT to annotate videos on your computer (once you have installed it). It covers the following key concepts:
+The steps below exaplin how to use CVAT to annotate videos on your computer (once you have installed it). It covers the following key concepts:
 * Labeling objects with bounding boxes
 * Tracking objects across frames 
 * Selecting attributes for a label
