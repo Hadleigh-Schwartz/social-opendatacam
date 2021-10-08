@@ -5,6 +5,8 @@
 ### Installing CVAT
 The videos below walk through installation of CVAT on your computer, based off of the steps detailed [here](https://github.com/openvinotoolkit/cvat). Installation instructions vary depending on your operating system, so make sure to choose the video corresponding to yours. 
 
+
+Windows:
 [![Windows Installation Video](https://img.youtube.com/vi/YRvhurhU1QU/0.jpg)](https://www.youtube.com/watch?v=YRvhurhU1QU)
 
 Docker Desktop for window link: 
