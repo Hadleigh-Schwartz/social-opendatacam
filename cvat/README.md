@@ -7,6 +7,8 @@ The videos below walk through installation of CVAT on your computer, based off o
 
 
 Windows:
+
+
 [![Windows Installation Video](https://img.youtube.com/vi/YRvhurhU1QU/0.jpg)](https://www.youtube.com/watch?v=YRvhurhU1QU)
 
 Docker Desktop for window link: 
