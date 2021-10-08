@@ -19,13 +19,12 @@ The videos linked below walk through installation of CVAT, based off of the step
 Below is a step-by-step guide for using CVAT to annotate videos on your computer (once you have installed it). Check out the video here for a demonstration:
 
 1. Download Test-Task1.zip. Scroll up and click Test-Task1.zip. At the next page, click Download.
-2. Open a terminal and enter the following commands, one by one:
+2. Open a terminal and enter the following commands, one by one. If you need you can refer back to the installation videos for instructions on how to open/use the terminal on your computer depending on its operating system.
   ```
   cd ~/cvat
   
   docker-compose up -d
-  ```
-If you need you can refer back to the installation videos for instructions on how to open/use the terminal on your computer depending on its operating system. 
+  ``` 
 2. Once you see the output shown below, open Google Chrome and go to localhost:8080. You should see the CVAT login page. 
 ![CVAT Ready](/cvat//assets/cvat-ready.png)
 3. Log in with the credentials you created during installation. 
