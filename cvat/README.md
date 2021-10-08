@@ -42,11 +42,11 @@ Check out the video [here](https://youtu.be/vfM4XsVKdgQ) for a demonstration.
 7. Click on "Import Task." Upload Test-Task1.zip, which you downloaded in Step 1. When it is finished importing, navigate to the task.
 8. On the task page, you should see a pane titled "Jobs." Click on the job number of the first (and only) job. This should bring you to the annotation page.
   - Note the two available labels: "person" and "interaction." Note that an "interaction" can have one of the following <i>attributes</i>: "dancing," "fighting," or "walking together."       Such attributes describe the type of interaction. 
-10. Start annotating! You can reference the official CVAT manual [here](https://openvinotoolkit.github.io/cvat/docs/manual/basics/track-mode-basics/). They detail how to annotate in "tracking mode," which is what we will be doing. Check out the video if you are still confused. 
+10. Start annotating! You can reference the official CVAT manual [here](https://openvinotoolkit.github.io/cvat/docs/manual/basics/track-mode-basics/). It details how to annotate in "tracking mode," which is what we will be doing. Check out the video if you are still confused. 
 11. When you're done, go back to your terminal and enter the command
  ```
   docker-compose down
   ```
-  This shuts down the service, so it will no longer show up when you visit localhost:8080. 
+  This shuts down the service, so CVAT will no longer show up when you visit localhost:8080. 
 
 
