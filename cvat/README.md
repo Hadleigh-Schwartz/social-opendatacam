@@ -18,7 +18,8 @@ The videos linked below walk through installation of CVAT, based off of the step
 ### Annotating with CVAT
 Below is a step-by-step guide for using CVAT to annotate videos on your computer (once you have installed it). Check out the video here for a demonstration:
 
-1. Open a terminal and enter the following commands, one by one:
+1. Download Test-Task1.zip. Scroll up and click Test-Task1.zip. At the next page, click Download.
+2. Open a terminal and enter the following commands, one by one:
   ```
   cd ~/cvat
   
@@ -28,10 +29,9 @@ Below is a step-by-step guide for using CVAT to annotate videos on your computer
 2. Once you see the output shown below, open Google Chrome and go to localhost:8080. You should see the CVAT login page. 
 ![CVAT Ready](/cvat//assets/cvat-ready.png)
 3. Log in with the credentials you created during installation. 
-4. Download the following files: 
-  - Test-Task1.zip
 6. Click on "Tasks" in the menu. 
-7. Click on "Import Task."
-8. 
+7. Click on "Import Task." Upload test-Task1.zip, which you downloaded in Step 1. When it is finished importing, navigate to the task.
+8. On the task page, under the Jobs pane, click on the job number. This should bring you to the annotation page.
+9. Start annotating! You can reference the official CVAT manual [here](https://openvinotoolkit.github.io/cvat/docs/manual/basics/track-mode-basics/). They detail how to annotate in "tracking mode," which is what we will be doing. Check out the video if you are still confused. 
 
 
