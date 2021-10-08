@@ -17,11 +17,16 @@ The videos linked below walk through installation of CVAT, based off of the step
 
 ### Annotating Video with CVAT - A Guided Example
 
-When annotating, your job is to label the objects in the video. Specifically, for each notable object in the video, you will draw a rectangle around it and then apply a label indicating its type. We will only be annotating people.
+Annotation entails labeling the objects in a video. Specifically, for each notable object in the video, you will draw a rectangle around it and then apply a label indicating its type. We will only be annotating people.
 
 Annotation proceeds frame-by-frame. A video is comprised of many frames, and across frames, the positions and characteristcs of objects will change. To annotate these objects, we pause the video - stopping it at a specific frame - and annotate everything we see in this "still." As you will see in the video, you only need to annotate certain <i>key frames </i>, and CVAT will fill in the blanks!
 
-Below is a step-by-step guide for using CVAT to annotate videos on your computer (once you have installed it). Check out the video [here](https://youtu.be/vfM4XsVKdgQ) for a demonstration. 
+Below is a step-by-step guide for using CVAT to annotate videos on your computer (once you have installed it). It covers the following key concepts:
+* Labeling objects with bounding boxes
+* Tracking objects across frames 
+* Selecting attributes for a label
+
+Check out the video [here](https://youtu.be/vfM4XsVKdgQ) for a demonstration. 
 
 1. Download Test-Task1.zip. Scroll up and click Test-Task1.zip. At the next page, click Download.
 2. Open a terminal and enter the following commands, one by one. If you need you can refer back to the installation videos for instructions on how to open/use the terminal on your computer depending on its operating system.
